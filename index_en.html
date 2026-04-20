@@ -3,16 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Library Book Loan & Inventory System</title>
+    <title>Library System</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="assets/book.png">
 </head>
 <body>
 
     <div class="container">
-        <header>
-            <h1>Library Book Loan & Inventory System</h1>
-            <p>Manage books, loans, returns, and reports</p>
+
+        <header class="top-header">
+            <div class="header-top-row">
+                <h2 class="logo">Smart Library</h2>
+
+                <div class="lang-switch">
+                    <button onclick="switchToArabic()">العربية</button>
+                </div>
+            </div>
+
+            <div class="header-text">
+                <h1>Library Book Loan & Inventory System</h1>
+                <p>Manage books, loans, returns, and reports</p>
+            </div>
         </header>
 
         <div class="grid">
@@ -20,7 +31,7 @@
                 <h2>Add Book</h2>
                 <input id="bookId" placeholder="Book ID">
                 <input id="bookTitle" placeholder="Book Title">
-                <input id="bookCopies" placeholder="Total Copies" type="number">
+                <input id="bookCopies" type="number" placeholder="Total Copies">
                 <button onclick="addBook()">Add Book</button>
             </section>
 
@@ -43,9 +54,7 @@
             </section>
         </div>
 
-        <section id="report" class="report-box">
-            <p>No report generated yet.</p>
-        </section>
+        <section id="report" class="report-box"></section>
 
         <footer class="footer">
             <p>© 2026 All Rights Reserved | Developed by MOHAMMAD SALAMEH OBEIDAT</p>
@@ -54,12 +63,12 @@
                 <a href="https://github.com/mo7ammad-3beidat" target="_blank" rel="noopener noreferrer">
                     <img src="assets/github.png" alt="GitHub">
                 </a>
-
                 <a href="https://www.linkedin.com/in/mo7-3beidat/" target="_blank" rel="noopener noreferrer">
                     <img src="assets/linkedin.png" alt="LinkedIn">
                 </a>
             </div>
         </footer>
+
     </div>
 
     <script src="script.js"></script>
