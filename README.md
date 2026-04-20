@@ -1,24 +1,27 @@
-📚 Library Book Loan & Inventory System
+# 📚 Library Book Loan & Inventory System
 
-A simple web-based library management system that allows users to manage books, handle loans and returns, and generate inventory reports.
+A simple web-based library management system that allows users to manage books, handle loans and returns, and generate inventory reports efficiently.
 
-🔹 Features:
+## 🔹 Features
 - Add new books with total and available copies
 - Loan books with automatic availability tracking
 - Return books with queue handling
-- Inventory reporting system
+- Generate inventory reports
 - Track last returned book (Stack implementation)
-- Loan queue management (Queue implementation)
-- Local storage support (data persistence)
-- Clear input fields after actions (better UX)
+- Manage loan queue (Queue implementation)
+- Local storage support for data persistence
+- Clear input fields after actions (improved UX)
 - Delete all books functionality
+- Bilingual support (Arabic & English)
 
-💡 Technologies Used:
-- HTML
-- CSS
-- JavaScript (Vanilla JS)
-- LocalStorage
+## 💡 Technologies Used
+- HTML  
+- CSS  
+- JavaScript (Vanilla JS)  
+- LocalStorage  
 
-Purpose: This project demonstrates the use of data structures (Stack & Queue) in a real-world web application, along with basic UI/UX design.
+## 🎯 Purpose
+This project demonstrates the use of data structures (Stack & Queue) in a real-world web application, along with basic UI/UX design principles.
 
-Developed by: Mohammad Salameh Obeidat
+## 👨‍💻 Developed by
+Mohammad Salameh Obeidat
